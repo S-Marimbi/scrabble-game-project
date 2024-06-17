@@ -7,4 +7,6 @@ def start_game():
     tile_bag = initialize_tile_bag()
     players = [Player('Human', tile_bag), Player('Computer', tile_bag)]
     current_player = 0
-    return board, tile_bag, players, current_player            
+    return board, tile_bag, players, current_player  
+
+#          
